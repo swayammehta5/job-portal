@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background: url('background-image.jpg') center/cover no-repeat;
+  color: #333;
+}
+
+#header {
+  background: #0077B5; /* LinkedIn blue color */
+  padding: 10px;
+  text-align: center;
+  color: #fff; /* White text color */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#header img {
+  width: 40px; /* Adjust the width of your logo */
+  height: auto;
+  margin-right: 10px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-circle {
+  background: #fff; /* White background */
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.logo-text {
+  color: #0077B5; /* LinkedIn blue color */
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 5px;
+}
+
+#main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80vh;
+}
+
+.card {
+  width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  text-align: center;
+}
+
+#jobSeekerCard {
+  background: #4caf50;
+  color: #fff;
+}
+
+#recruiterCard {
+  background: #2196f3;
+  color: #fff;
+}
+
+#header-options {
+  display: flex;
+  gap: 20px;
+}
+
+#aboutUs, #contactUs {
+  color: #fff; /* White text color */
+  text-decoration: none;
+}
+
+#aboutUs:hover, #contactUs:hover {
+  text-decoration: underline;
+}

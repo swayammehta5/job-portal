@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkedOut</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <div id="header">
+        <div class="logo-container">
+            <div class="logo-circle">
+                <span class="logo-text">Out</span>
+            </div>
+        </div>
+        <h1>LinkedOut</h1>
+        <div id="header-options">
+            <a href="#" id="aboutUs">About Us</a>
+            <a href="#" id="contactUs">Contact Us</a>
+        </div>
+    </div>
+    <div id="main">
+        <div class="card" id="jobSeekerCard">
+            <h2>Job Seeker</h2>
+            <p>Find your dream job</p>
+                <button onclick="redirectToJobSeeker()">
+                <a href="job seeker.html">Find Job</a>
+        </div>
+        <div class="card" id="recruiterCard">
+            <h2>Recruiter</h2>
+            <p>Post your job and find the right talent</p>
+            <button onclick="redirectToRecruiter()">
+                <a href="recruiter.html">Post a Job</a></button>
+        </div>
+    </div>
+    <script>
+        function redirectToJobSeeker() {
+            alert("Redirecting to Job Seeker page");
+        }
+        function redirectToRecruiter() {
+            // You can navigate to the recruiter page or perform other actions here
+            alert("Redirecting to Recruiter page");
+        }
+    </script>
+</body>
+</html>

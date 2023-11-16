@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recruiter Portal</title>
+    <link rel="stylesheet" href="recruiter.css">
+</head>
+<body>
+    <header>
+        <h1>Recruiter Portal</h1>
+    </header>
+    <main>
+        <section id="jobForm" class="job-form">
+            <h2>Create New Job Listing</h2>
+            <form id="recruiterForm">
+                <label for="jobTitle">Job Title:</label>
+                <input type="text" id="jobTitle" required>
+
+                <label for="company">Company:</label>
+                <input type="text" id="company" required>
+
+                <label for="location">Location:</label>
+                <input type="text" id="location" required>
+
+                <label for="description">Job Description:</label>
+                <textarea id="description" rows="4" required></textarea>
+
+                <button type="button" onclick="postJob()">Post Job</button>
+            </form>
+        </section>
+        <section id="postedJobs" class="posted-jobs">
+            <h2>Posted Jobs</h2>
+            <ul id="jobList">
+                <!-- Posted jobs will be dynamically added here -->
+            </ul>
+        </section>
+    </main>
+    <script src="recruiter.js"></script>
+</body>
+</html>

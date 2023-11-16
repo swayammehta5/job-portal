@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Seeker Portal</title>
+    <link rel="stylesheet" href="job seeker.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Job Seeker Portal</h1>
+            <div id="search-bar">
+                <input type="text" id="searchInput" placeholder="Search...">
+                <select id="searchDropdown">
+                    <option value="title">Title</option>
+                    <option value="company">Company</option>
+                    <option value="location">Location</option>
+                </select>
+                <button onclick="searchJobs()">Search</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="jobListings" class="job-listings">
+            <!-- Job listings will be dynamically added here -->
+        </section>
+    </main>
+
+    <script src="jobseeker.js"></script>
+</body>
+
+</html>
