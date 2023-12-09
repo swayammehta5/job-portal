@@ -15,8 +15,8 @@
         </div>
         <h1>LinkedOut</h1>
         <div id="header-options">
-            <a href="#" id="aboutUs">About Us</a>
-            <a href="#" id="contactUs">Contact Us</a>
+            <a href="about.html" id="aboutUs">About Us</a>
+            <a href="contact.html" id="contactUs">Contact Us</a>
         </div>
     </div>
     <div id="main">
@@ -32,14 +32,22 @@
             <button onclick="redirectToRecruiter()">
                 <a href="recruiter.html">Post a Job</a></button>
         </div>
+        <div class="card" id="companyCard">
+            <h2>Company Details</h2>
+            <p>Know about the company</p>
+            <button onclick="redirectToCompany()">
+                <a href="company.html">Know More</a></button>
+        </div>
     </div>
     <script>
         function redirectToJobSeeker() {
             alert("Redirecting to Job Seeker page");
         }
         function redirectToRecruiter() {
-            // You can navigate to the recruiter page or perform other actions here
             alert("Redirecting to Recruiter page");
+        }
+        function redirectToCompany() {
+            alert("Redirecting to Company Details page");
         }
     </script>
 </body>
